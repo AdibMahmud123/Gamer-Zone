@@ -1,7 +1,9 @@
 body{
 
     font-family: sans-serif;
+    margin: 0;
 }
+
 
 .top-1{
     display: flex;
@@ -47,11 +49,9 @@ body{
 }
 
 .top{
+    padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
-    column-gap: 200px;
-    padding: 2px;
-    
     
 }
 
@@ -205,6 +205,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2px;
+    margin-bottom: 200px;
     
 }
 
@@ -244,6 +245,106 @@ body{
     color: rgb(161, 159, 159);
     font-size: 15px;
 }
+
+.final{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
+}
+
+
+.final:hover {
+    border: 2px solid;
+    border-color: #B852D7;
+    border-radius: 30px;
+    padding: 5px;
+    color: #B852D7;
+}
+
+.dek-only{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.dek-only:hover{
+    border: 2px solid;
+    border-color: #B852D7;
+    border-radius: 30px;
+    padding: 5px;
+    color: #B852D7;
+}
+
+.sec-6{
+    margin-bottom: 100px;
+}
+
+.first-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.change{
+    width: 40px;
+    height: 40px;
+}
+
+.dekstop-only{
+    width: 40px;
+    height: 40px;
+}
+
+
+.second-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.sec-6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.End{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.gamer-2{
+    color: #B852D7;
+}
+
+.white{
+    color: white;
+}
+
+.end-text{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+
 @media (min-width: 412px) and (max-width: 767px) {
     .top{
         display: flex;
@@ -256,6 +357,8 @@ body{
         flex-direction: column;
         text-align: center;
         line-height: 20px;
+        position: relative;
+        bottom: 50px;
     }
 
     .top-2{
@@ -284,6 +387,18 @@ body{
         bottom: 40px;
         left: 10px;
 
+    }
+
+    .red{
+        width: 300px;
+        position: relative;
+        right: 70px;
+    }
+
+    .red2{
+        position: relative;
+        left: 90px;
+        top:200px
     }
 
     .group-2{
@@ -337,4 +452,48 @@ body{
         flex-direction: column;
         align-items: center;
     }
+
+    .dekstop-only{
+        display: none;
+    }
+
+    .first-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+       
+    }
+
+    .second-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .dek-only{
+        display: none;
+    }
+
+    .change{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .dekstop-only{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .End{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        margin-left: 0;
+    }
+    
 }
