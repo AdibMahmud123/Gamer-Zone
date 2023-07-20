@@ -495,5 +495,13 @@ body{
         padding: 50px;
         margin-left: 0;
     }
+
+    .white{
+       font-size: 8px;
+    }
+
+    .xmall{
+        font-size: 8px;
+    }
     
 }
