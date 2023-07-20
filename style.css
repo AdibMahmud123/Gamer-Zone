@@ -1,0 +1,109 @@
+body{
+
+    font-family: sans-serif;
+}
+
+.top-1{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    
+}
+
+.gamer{
+    position: relative;
+    bottom: 22px;
+    
+}
+
+.icon{
+    width: 70px;
+}
+
+.top-2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 10px;
+    
+}
+
+.text-1{
+    text-decoration: None;
+    color: black;
+    font-size: 12px;
+}
+
+.button-1{
+    
+    background-color: rgb(221, 215, 215);
+    border: none;
+    border-radius: 5px;
+}
+
+.container-1{
+    display: flex;
+    column-gap: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 200px;
+    padding: 25px;
+    
+}
+
+.text-2{
+    line-height: 25px;
+}
+.GOAT{
+    font-size: 62px;
+    color: #B852D7;
+}
+
+.t{
+    font-size: 14px;
+}
+
+.sing-in{
+    color: aliceblue;
+    background-color: rgb(232, 50, 141);
+    border: None;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.Rouge{
+    color: aliceblue;
+    background-color: #4EC5F7;
+    border: None;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.button-cont{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.left{
+    position: relative;
+    top: 100px;
+}
+.sec-2{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FCF5FB;
+}
+
+.group-image{
+    width: 500px;
+}
+
+.group-2{
+    width: 700px;
+}
