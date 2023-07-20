@@ -50,12 +50,24 @@ body{
     display: flex;
     justify-content: space-evenly;
     column-gap: 200px;
-    padding: 25px;
+    padding: 2px;
     
+    
+}
+
+.button-1{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 15px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 20px;
 }
 
 .text-2{
     line-height: 25px;
+    position: relative;
+    right: 30px;
 }
 .GOAT{
     font-size: 62px;
@@ -65,6 +77,30 @@ body{
 .t{
     font-size: 14px;
 }
+
+.button-cont{
+    position: relative;
+    right: 40px;
+}
+
+.play{
+    position: relative;
+    top: 38px;
+    right: 35px;
+}
+
+.download{
+    position: relative;
+    top: 65px;
+    right: 60px;
+}
+
+.people{
+    position: relative;
+    top: 95px;
+    right: 85px;
+}
+
 
 .sing-in{
     color: aliceblue;
@@ -98,6 +134,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #FCF5FB;
+    margin-bottom: 50px;
 }
 
 .group-image{
@@ -106,4 +143,107 @@ body{
 
 .group-2{
     width: 700px;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+    background-color: #FCF5FB;
+}
+
+.right{
+    text-align: right;
+}
+
+.gamer{
+    color: #B852D7;
+    font-size: 35px;
+}
+
+.mid-par{
+    font-size: smaller;
+    color: rgb(132, 131, 131);
+}
+.know-more{
+    border: None;
+    background-color: rgb(243, 79, 161);
+    padding: 15px 25px 15px 25px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+@media (min-width: 412px) and (max-width: 767px) {
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .top-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    .group-image{
+        width: 350px;
+    }
+
+    .text-2{
+       position: relative;
+       left: 25px;
+    }
+
+    .text-3{
+        text-align: center;
+        position: relative;
+        bottom: 40px;
+        left: 10px;
+
+    }
+
+    .group-2{
+        width: 450px;
+    }
+
+    .left{
+        position: relative;
+        top: 30px;
+    }
+
+    .sing-in{
+        position: relative;
+        bottom: 30px;
+        left: 50px;
+    }
+
+    .Rouge{
+        position: relative;
+        bottom: 30px;
+        left: 50px;
+    }
+
+
+    .sec-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+        text-align: center;
+    }
 }
